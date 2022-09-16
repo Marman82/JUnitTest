@@ -4,6 +4,7 @@ public class Poker {
 	// Precondition: A hand of n cards have been sorted by card number.
 	public boolean isFullHouse(String cards[], int n) {
 		return isThreeOfaKind(cards, n) && isTwoPairs(cards, n);
+		//hhiiiiii
 	}
 
 	// Precondition: A hand of n cards have been sorted by card number.
@@ -17,7 +18,7 @@ public class Poker {
 		return false;
 	}
 
-	// Precondition: A hand of n cards have been sorted by card number.
+	// Hello Marman
 	public boolean isTwoPairs(String cards[], int n) {
 		int count = 0;
 		char pair1 = 0;
